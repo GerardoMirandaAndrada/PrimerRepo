@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-i{
-    font-size: 50px;
-}
+
+
+
+
 body {
     background-color: rgb(63, 62, 62);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,7 +19,7 @@ header {
 
 main {
     background-color: rgb(17, 121, 20);
-    
+
 }
 
 img {
@@ -42,7 +43,14 @@ ol {
 }
 
 /*----header----*/
+.fa-solid fa-bars{    
+    font-size: xx-small;
 
+}
+.fa-brands {
+    font-size: 50px;
+    
+}
 .logo-header {
     width: 100%;
     height: auto;
@@ -88,7 +96,7 @@ ol {
     border-radius: 5px;
     line-height: 8vh;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     user-select: none;
 
 }
@@ -171,10 +179,11 @@ ul .navegador-lista {
 .parrafo {
     text-align: center;
     font-style: oblique;
-    font-size:large;
+    font-size: large;
     border-bottom: #525151;
     border-width: 10px;
 }
+
 /*----pagina ventas*/
 .aside-ventas {
 
@@ -182,16 +191,17 @@ ul .navegador-lista {
 
 }
 
-.main-ventas{
+.main-ventas {
     display: grid;
     grid-template-columns: 20% 80%;
 }
- #filtros-nav.filtros {
+
+#filtros-nav.filtros {
     box-sizing: border-box;
     display: block;
     color: #525151;
     margin: 50px;
-    height:50vh;
+    height: 50vh;
     width: 20vh;
     border: 1px solid #040404;
     list-style: armenian;
@@ -200,7 +210,7 @@ ul .navegador-lista {
     text-align: center;
     font-weight: bolder;
     user-select: none;
- }
+}
 
 .grids {
     display: grid;
@@ -216,10 +226,11 @@ ul .navegador-lista {
 
 
 }
-.iconos-flex{
+
+.iconos-flex {
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding: 20px;
-    
+
 }
