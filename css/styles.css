@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-i{
+
+i {
     font-size: 50px;
 }
+
 body {
     background-color: rgb(63, 62, 62);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,7 +20,7 @@ header {
 
 main {
     background-color: rgb(17, 121, 20);
-    
+
 }
 
 img {
@@ -26,15 +28,15 @@ img {
     max-width: 600px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-
+a { 
+    text-decoration: none !important; 
+    color: black !important;
+    
 }
 
 ul {
     list-style-type: none;
-
+    
 }
 
 ol {
@@ -56,10 +58,10 @@ ol {
 /*-----nav---------*/
 .navegador {
 
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    justify-self: center;
+    grid-column-start: 3 !important;
+    grid-column-end: 4 !important;
+    grid-row-start: 2 !important;
+    justify-self: center !important;
 }
 
 .navegador input:checked~.boton-menu {
@@ -134,17 +136,17 @@ ul .navegador-lista {
     }
 
     .navegador .navegador-lista {
-        display: flex;
-        flex-direction: row;
+        display: flex !important;
+        flex-direction: row !important;
     }
 
     .item-lista {
-        list-style: none;
-        display: inline-block;
-        line-height: 8vh;
-        margin: 0 0.5em;
-        padding: 0 5px;
-        border-bottom: 0px;
+        list-style: none !important;
+        display: inline-block !important;
+        line-height: 8vh !important;
+        margin: 0 0.5em !important;
+        padding: 0 5px !important;
+        border-bottom: 0px !important;
     }
 
 
@@ -171,10 +173,11 @@ ul .navegador-lista {
 .parrafo {
     text-align: center;
     font-style: oblique;
-    font-size:large;
+    font-size: large;
     border-bottom: #525151;
     border-width: 10px;
 }
+
 /*----pagina ventas*/
 .aside-ventas {
 
@@ -182,16 +185,13 @@ ul .navegador-lista {
 
 }
 
-.main-ventas{
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
- #filtros-nav.filtros {
+
+#filtros-nav.filtros {
     box-sizing: border-box;
     display: block;
     color: #525151;
     margin: 50px;
-    height:50vh;
+    height: 50vh;
     width: 20vh;
     border: 1px solid #040404;
     list-style: armenian;
@@ -200,7 +200,7 @@ ul .navegador-lista {
     text-align: center;
     font-weight: bolder;
     user-select: none;
- }
+}
 
 .grids {
     display: grid;
@@ -216,10 +216,11 @@ ul .navegador-lista {
 
 
 }
-.iconos-flex{
+
+.iconos-flex {
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding: 20px;
-    
+
 }
