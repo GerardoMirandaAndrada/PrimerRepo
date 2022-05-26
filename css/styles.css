@@ -5,7 +5,7 @@
 }
 
 i {
-    font-size: 50px;
+    font-size: 30px !important;
 }
 
 body {
@@ -19,7 +19,7 @@ header {
 }
 
 main {
-    background-color: rgb(17, 121, 20);
+    background-color: rgba(22, 133, 41, 0.96) !important;
 
 }
 
@@ -28,15 +28,15 @@ img {
     max-width: 600px;
 }
 
-a { 
-    text-decoration: none !important; 
+a {
+    text-decoration: none !important;
     color: black !important;
-    
+
 }
 
 ul {
     list-style-type: none;
-    
+
 }
 
 ol {
@@ -138,6 +138,7 @@ ul .navegador-lista {
     .navegador .navegador-lista {
         display: flex !important;
         flex-direction: row !important;
+        justify-content: center !important;
     }
 
     .item-lista {
@@ -185,6 +186,14 @@ ul .navegador-lista {
 
 }
 
+.container {
+    background-color: green;
+    padding: 20px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    
+
+}
 
 #filtros-nav.filtros {
     box-sizing: border-box;
@@ -213,9 +222,11 @@ ul .navegador-lista {
     column-gap: 10px;
     overflow: hidden;
     align-items: center;
-
-
 }
+
+
+
+
 
 .iconos-flex {
     display: flex;
